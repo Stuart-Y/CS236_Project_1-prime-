@@ -1,5 +1,8 @@
 #pragma once
-#include <vector><iostream><fstream><string>
+#include <vector>
+#include<iostream>
+#include<fstream>
+#include<string>
 #include "Token.h"
 #include "Automaton.h"
 namespace std {
@@ -18,7 +21,7 @@ namespace std {
 			int lineCount = 1;
 			int maxRead = 1;
 			int machineCount = 0;
-			Automaton maxMachine = automata[1];
+			//Automaton maxMachine = automata[1];
 			
 
 			while (machineCount<automata.size()) {
